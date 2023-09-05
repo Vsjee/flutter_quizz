@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:quizz_app/widgets/Home.dart';
+import 'package:quizz_app/widgets/home_entry.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,11 +19,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
       home: const Scaffold(
-        body: Home(colors: colors),
+        body: Center(child: Home(colors: colors)),
       ),
     );
   }
