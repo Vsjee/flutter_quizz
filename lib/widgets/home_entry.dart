@@ -18,9 +18,23 @@ class Home extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
+          Image.asset(
+            'assets/images/quiz-logo.png',
+            width: 300,
+          ),
+          const SizedBox(
+            height: 40,
+          ),
+          const Text(
+            'Formula 1 Quizz',
+            style: TextStyle(fontSize: 20, color: Colors.white),
+          ),
+          const SizedBox(
+            height: 20,
+          ),
           OutlinedButton(
             onPressed: () {},
-            child: const Text('Start Quizz'),
+            child: const Text('Start 🏎️'),
           )
         ],
       ),
