@@ -32,12 +32,11 @@ class Home extends StatelessWidget {
           const SizedBox(
             height: 20,
           ),
-          OutlinedButton(
+          OutlinedButton.icon(
             onPressed: () {},
-            child: const Row(
-              mainAxisSize: MainAxisSize.min,
-              children: [Text('Start'), Icon(Icons.arrow_forward)],
-            ),
+            style: OutlinedButton.styleFrom(foregroundColor: Colors.white),
+            label: const Text('Start'),
+            icon: const Icon(Icons.arrow_forward),
           )
         ],
       ),
