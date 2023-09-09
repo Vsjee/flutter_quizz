@@ -21,7 +21,15 @@ class Home extends StatelessWidget {
           Image.asset(
             'assets/images/quiz-logo.png',
             width: 300,
+            color: const Color.fromARGB(234, 255, 60, 0),
           ),
+          // Opacity(
+          //   opacity: 0.4,
+          //   child: Image.asset(
+          //     'assets/images/quiz-logo.png',
+          //     width: 300,
+          //   ),
+          // ),
           const SizedBox(
             height: 40,
           ),
