@@ -24,7 +24,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
 
   @override
   Widget build(BuildContext context) {
-    final currQuestion = questions[0];
+    final currQuestion = questions[currQuestionIdx];
 
     return Padding(
       padding: const EdgeInsets.only(left: 35, right: 35),
@@ -33,7 +33,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Text(
-            currQuestionIdx.toString(),
+            currQuestion.questions,
             style: const TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
