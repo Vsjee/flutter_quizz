@@ -21,10 +21,10 @@ const questions = [
   QuizQuestion(
       'In what year did the FIA ban the use of ground effect in F1 cars, before making it mandatory in 2021?',
       [
-        '1983'
-            '1980'
-            '1981'
-            '1982'
+        '1983',
+        '1980',
+        '1981',
+        '1982',
       ]),
   QuizQuestion(
       'How many internal combustion engine units (ICE) are drivers allowed to use without receiving a grid penalty during the 2023 F1 season?',
@@ -35,9 +35,9 @@ const questions = [
   QuizQuestion(
       ' Which famous F1 track has only missed out once in hosting a Grand Prix, since the start of Formula One back in 1950?',
       [
-        'Monza'
-            'Silverstone'
-            'Spa-Francorchamps'
-            'Monaco'
+        'Monza',
+        'Silverstone',
+        'Spa-Francorchamps',
+        'Monaco',
       ]),
 ];
