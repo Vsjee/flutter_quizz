@@ -36,6 +36,8 @@ class _QuizState extends State<Quiz> {
   }
 
   void restartQuiz() {
+    selectedAnwers = [];
+
     setState(() {
       activeScreen = 'home-screen';
     });
